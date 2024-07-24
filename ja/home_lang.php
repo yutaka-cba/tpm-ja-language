@@ -3,9 +3,9 @@ $lang = array (
 
 	// views/main
 	'main_new_password' 		=> '新しいパスワード',
-	'main_new_project' 			=> 'new [PRJ］',
+	'main_new_project' 			=> 'new [PRJ]',
 	'main_search_results'		=> '検索結果',
-	'main_search_projects'		=> '検索 [PRJS］',
+	'main_search_projects'		=> '検索 [PRJS]',
 	'main_search_passwords' 	=> 'パスワード検索',
 	'main_adv_search_title'		=> '高度な検索',
 	'main_search'				=> '検索',
@@ -30,9 +30,9 @@ $lang = array (
 	'main_filter_tree'	 		=> 'フィルターツリー',
 	'main_noprj_welcome_title'	=> 'チームパスワードマネージャーへようこそ',
 	'main_noprj_welcome_line11' => '<strong>Team Password Manager</strong>は組織のパスワード管理に役立ちます。',
-	'main_noprj_welcome_line12'	=> '各パスワードは<strong>[PRJ］</strong>.',
+	'main_noprj_welcome_line12'	=> '各パスワードは<strong>[PRJ]</strong>.',
 	'main_noprj_welcome_line21' => 'そこで、まずやっておきたいのが[PRJ]の作成だ：',
-	'main_noprj_welcome_line22' => 'new [PRJ］',
+	'main_noprj_welcome_line22' => 'new [PRJ]',
 	'main_noprj_welcome_line31' => '5分ほどお時間があれば、ヘルプページでTeam Password Managerの概要をご覧ください：',
 	'main_noprj_welcome_line32' => 'ヘルプページ',
 	'main_uselector_search'		=> '検索ユーザー',
@@ -285,7 +285,7 @@ $lang = array (
 	'vpwd_list_sort_by'			=> '並べ替え',
 	'vpwd_filter_expired'		=> 'フィルター期限切れ',
 	'vpwd_filter_soon_expire'	=> 'フィルター期限切れ間近',
-	'vpwd_filter_project'		=> 'CAP_PRJ]で絞り込む',
+	'vpwd_filter_project'		=> '[CAP_PRJ]で絞り込む',
 	'vpwd_filter_tag'			=> 'タグで絞り込む',
 	'vpwd_search_tags'			=> '検索タグ',
 
@@ -358,10 +358,10 @@ $lang = array (
 	// controllers/prj
 	'c_prj_in'					=> 'で',
 	'c_prj_search_results'		=> '検索結果',
-	'c_prj_favorite_prjs'		=> 'お気に入り【CAP_PRJS',
-	'c_prj_archived_prjs'		=> 'アーカイブ【CAP_PRJS',
-	'c_prj_recent_prjs'			=> '最近の【CAP_PRJS',
-	'c_prj_active_prjs'			=> 'アクティブ【CAP_PRJS',
+	'c_prj_favorite_prjs'		=> 'お気に入り[CAP_PRJS]',
+	'c_prj_archived_prjs'		=> 'アーカイブ[CAP_PRJS]',
+	'c_prj_recent_prjs'			=> '最近の[CAP_PRJS]',
+	'c_prj_active_prjs'			=> 'アクティブ[CAP_PRJS]',
 	'c_prj_favorite'			=> 'お気に入り',
 	'c_prj_archived'			=> 'アーカイブ',
 	'c_prj_recent'				=> '最近',
@@ -373,9 +373,9 @@ $lang = array (
 	'c_prj_edit_project'		=> '[PRJ]を編集する',
 	'c_prj_edit_archived'		=> 'この[PRJ]は<span class="label label-warning tpm-archived">アーカイブされている</span>ため編集できません。',
 	'c_prj_edit_permission' 	=> 'この[PRJ]を編集するために必要な権限がありません。',
-	'c_prj_new_project'			=> 'new [PRJ］',
+	'c_prj_new_project'			=> 'new [PRJ]',
 	'c_prj_new_no_more_projects'=> '申し訳ありませんが、これ以上[PRJS]を作成することはできません。',
-	'c_prj_new_free'			=> 'を使用しています。<strong>無料版</strong>を持つことができる。<strong>2ユーザーと5 [PRJS］</strong>すでに5つの[PRJS]を持っています。より多くのユーザーと無制限の[PRJS]を持つためにライセンスを追加する必要があります。',
+	'c_prj_new_free'			=> 'を使用しています。<strong>無料版</strong>を持つことができる。<strong>2ユーザーと5 [PRJS]</strong>すでに5つの[PRJS]を持っています。より多くのユーザーと無制限の[PRJS]を持つためにライセンスを追加する必要があります。',
 	'c_prj_new_buy' 			=> 'Team Password Managerのウェブサイトからライセンスを購入できます。',
 	'c_prj_new_cannot'			=> '申し訳ありませんが、[PRJS]は作成できません。',
 	'c_prj_new_no_access_parent'=> 'の場合、親の[PRJ]にはアクセスできない。',
@@ -388,19 +388,19 @@ $lang = array (
 	'c_prj_eps_error_saving'	=> '[PRJ]のセキュリティ保存にエラーが発生しました。',
 	'c_prj_eps_no_members'		=> 'このグループにはメンバーはいません',
 
-	'c_prj_delete'				=> '削除 [PRJ］',
+	'c_prj_delete'				=> '削除 [PRJ]',
 	'c_prj_delete_archived'		=> '[PRJ]は<span class="label label-warning tpm-archived">アーカイブされているので削除できません</span>。',
 	'c_prj_delete_not_leaf'		=> 'この[PRJ]は[SUBPRJS]を持っているので削除できない。',
 	'c_prj_delete_not_leaf_explain'	=> '現在、削除できるのは階層の末尾にある[PRJS]のみである。',
 	'c_prj_delete_perm'			=> 'この[PRJ]を削除するのに必要な権限がありません（管理権限と管理者、[CAP_PRJ]マネージャ、またはITロールが必要です）。',
 	'c_prj_delete_error'		=> 'エラー： [PRJ]は<strong>違う</strong>データベースエラーにより削除されました。',
 
-	'c_prj_archive'				=> 'アーカイブ[PRJ］',
+	'c_prj_archive'				=> 'アーカイブ[PRJ]',
 	'c_prj_archive_archived'	=> '[PRJ]はすでに<span class="label label-warning tpm-archived">アーカイブされています</span>。',
 	'c_prj_archive_perm'		=> 'この[PRJ]をアーカイブするのに必要な権限がありません（管理権限が必要です）。',
 	'c_prj_archive_error'		=> '[PRJ]のアーカイブにエラーが発生しました。',
 
-	'c_prj_unarchive'			=> 'アン・アーカイブ[PRJ］',
+	'c_prj_unarchive'			=> 'アン・アーカイブ[PRJ]',
 	'c_prj_unarchive_unarchived'=> '[PRJ]はすでに<strong>未アーカイブ</strong>.',
 	'c_prj_unarchive_perm'		=> 'この[PRJ]をアーカイブ解除するのに必要な権限がありません（管理権限が必要です）。',
 	'c_prj_unarchive_error'		=> '[PRJ]のアーカイブ解除にエラーが発生しました。',
@@ -425,7 +425,7 @@ $lang = array (
 	'c_prj_new_pwd_select_prj'	=> '[PRJ]を選択し、新しいパスワードを作成する。',
 	'c_prj_new_pwd_grayed' 		=> 'パスワードを作成できない[PRJS]がグレー表示される',
 	'c_prj_new_prj_select_prj'	=> 'の中に新しい[PRJ]を作成するために、親[PRJ]（またはルート）を選択する。',
-	'c_prj_tree_select_parent_project' => 'セレクトペアレント[PRJ］',
+	'c_prj_tree_select_parent_project' => 'セレクトペアレント[PRJ]',
 	'c_prj_tree_select_parent_project_importing' => 'インポートに使用する親の[PRJ]（またはルート）を選択する。',
 	'c_prj_select_prj_export'	=> 'からパスワードをエクスポートするには、[PRJ]（またはすべて）を選択します。',
 	'c_prj_select_prj_export_grayed' => 'パスワードをエクスポートできない[PRJS]がグレー表示されています。',
@@ -833,7 +833,7 @@ $lang = array (
 
 
 	'v_trash_element_pwd'			=> 'パスワード',
-	'v_trash_element_prj'			=> '[PRJ］',
+	'v_trash_element_prj'			=> '[PRJ]',
 
 	'v_deleted'						=> '(削除済み)',
 	
@@ -842,7 +842,7 @@ $lang = array (
 
 	'm_prj_trash_not_found_in_trash' => '[PRJ] ゴミ箱に見当たらない',
 
-	'c_trash_delperm_prj'			=> '永久削除 [CAP_PRJ］',
+	'c_trash_delperm_prj'			=> '永久削除 [CAP_PRJ]',
 	'c_trash_not_found_trash_delperm_prj' => 'この[PRJ]はゴミ箱にないか、永久に削除する権限がありません。',
 
 	'vtrash_delperm_conf1_prj'		=> 'この[PRJ]とすべてのパスワードを永久に削除しますか？',
@@ -853,7 +853,7 @@ $lang = array (
 	'c_trash_restore'				=> 'リストア',
 	'c_trash_not_found_restore' 	=> 'この要素はゴミ箱にないか、復元する権限がありません。',
 
-	'c_trash_restore_prj'			=> 'リストア[PRJ］',
+	'c_trash_restore_prj'			=> 'リストア[PRJ]',
 	'c_trash_not_found_trash_restore_prj' => 'この[PRJ]はゴミ箱に入っていないか、復元する権限がありません。',
 
 	'vtrash_restore_conf_prj'		=> 'この[PRJ]とすべてのパスワードを復元しますか？',
@@ -966,7 +966,7 @@ $lang = array (
 
 	'c_bulk_prj_select_prj'			=> '[PRJ]を選択する。',
 
-	'v_bulk_destination_project'	=> '行き先 [PRJ］',
+	'v_bulk_destination_project'	=> '行き先 [PRJ]',
 
 	'v_bulk_copy_pwds_confirm'		=> '選択したパスワードをコピー先[PRJ]にコピーしますか？',
 

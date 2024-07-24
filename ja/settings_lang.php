@@ -346,7 +346,7 @@ $lang = array (
 	'v_set_lic_limit_desc'			=> '<strong>制限</strong>= 通常ライセンス」の場合は、サポート/アップデートの終了日。サポートとアップデートのライセンス」の場合は、期間。トライアルライセンス」の場合は、有効期限。',
 	'v_set_lic_need_more_users'		=> 'より多くのユーザーが必要な場合は、Team Password Managerのウェブサイトからライセンスを購入することができます。',
 	'v_set_lic_notification_approaching' => '各ライセンスについて、サポートとアップデートの期日が近づくと、オプションでサポートとアップデートを更新するための電子メールが届きます。',
-	'v_set_lic_using_free'			=> 'を使用しています。<strong>無料版</strong>を持つことができる。<strong>2ユーザーと5 [PRJS］</strong>.より多くのユーザーと[PRJS]を持つためにライセンスを追加する必要があります。',
+	'v_set_lic_using_free'			=> 'を使用しています。<strong>無料版</strong>を持つことができる。<strong>2ユーザーと5 [PRJS]</strong>.より多くのユーザーと[PRJS]を持つためにライセンスを追加する必要があります。',
 	'v_set_lic_can_buy'				=> 'Team Password Managerのウェブサイトからライセンスを購入できます。',
 	'v_set_lic_if_you_have'			=> 'ライセンスをお持ちの方は、下のボタンをクリックして追加してください。',
 
@@ -366,7 +366,7 @@ $lang = array (
 	'v_set_imp_sel_file'			=> 'インポートするパスワードを含むファイルを選択する。',
 	'v_set_imp_csv_ext'				=> 'CSV拡張機能',
 	
-	'v_set_imp_select_parent_btn'	=> '親［PRJ］を選択する',	
+	'v_set_imp_select_parent_btn'	=> '親［PRJ]を選択する',	
 	'v_set_imp_current_parent'		=> '現在選択中',
 	'v_set_imp_root'				=> '(ルート)',
 	'v_set_imp_not_access_selected' => '(選択した[PRJ]にはアクセスできません）',
@@ -657,9 +657,9 @@ $lang = array (
 	'v_set_lang_incorrect_version'	=> '不正解',
 
 	// v7
-	'v_set_imp_select_parent'		=> '親［PRJ］を選択する', // Changed, not new in v7
+	'v_set_imp_select_parent'		=> '親［PRJ]を選択する', // Changed, not new in v7
 	'v_set_imp_none'				=> 'なし',
-	'v_set_imp_select_parent_error' => '親［PRJ］を選択しなかった',
+	'v_set_imp_select_parent_error' => '親［PRJ]を選択しなかった',
 
 	// v8
 	'v_set_api_sec'					=> 'APIセキュリティ',
