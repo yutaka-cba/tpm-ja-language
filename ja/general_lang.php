@@ -3,11 +3,11 @@ $lang = array (
 
 	// Language to use in headers of html pages (<html lang="XX">)
 	// See: https://www.w3.org/International/questions/qa-html-language-declarations.en
-	'html_lang'					=> 'エン',
+	'html_lang'					=> 'en',
 
 	// Locale for the datepicker component
 	// See all the locales here: /css/js/datepicker/js/locales
-	'datepicker_locale'			=> 'エン',
+	'datepicker_locale'			=> 'en',
 	'datepicker_weekstart'		=> 0, // 0=Sunday, 1=Monday, etc.
 
 	'prj' 						=> 'プロジェクト',
@@ -21,28 +21,28 @@ $lang = array (
 	'cap_pwds'					=> 'パスワード',
 	'cap_pwd'					=> 'パスワード',
 	'cancel'					=> 'キャンセル',
-	'ok'						=> 'オッケー',
-	'save'						=> 'セーブ',
+	'ok'						=> 'OK',
+	'save'						=> '保存',
 	'no'						=> 'いいえ',
 	'yes'						=> 'はい',
 	'tpm_required'				=> '必須',
-	'show'						=> 'ショー',
+	'show'						=> '表示',
 	'hide'						=> '隠す',
 	'tag'						=> 'タグ',
 	'tags'						=> 'タグ',
 	'in'						=> 'で',
 	
-	'pwd_name'					=> '名称',
+	'pwd_name'					=> '名前',
 	'pwd_access'				=> 'アクセス',
 	'pwd_username'				=> 'ユーザー名',
 	'pwd_email'					=> '電子メール',
-	'repeat_pwd'				=> 'リピートパスワード',
+	'repeat_pwd'				=> 'パスワードを繰り返す',
 	'pwd_expiry_date'			=> '有効期限',
 	'pwd_notes'					=> '備考',
 
-	'pwd_expires_today'			=> '本日まで',
-	'pwd_expired'			 	=> '期限切れ',
-	'pwd_will_expire_soon' 		=> 'まもなく期限切れ',
+	'pwd_expires_today'			=> '本日有効期限が切れます',
+	'pwd_expired'			 	=> '有効期限切れ',
+	'pwd_will_expire_soon' 		=> 'まもなく有効期限切れ',
 	'pwd_expired_or_today' 		=> '有効期限切れまたは本日まで',
 	
 	'cf_do_not_use'				=> 'カスタムフィールドを使用しない',
@@ -54,7 +54,7 @@ $lang = array (
 	'cf_enc_notes' 				=> '暗号化されたメモ',
 
 	'you'						=> 'あなた',
-	'inactive'					=> '活動休止中',
+	'inactive'					=> 'インアクティブ',
 	'deleted_user'				=> '削除ユーザー',
 	
 	// pwd permissions
@@ -78,12 +78,12 @@ $lang = array (
 	'Normal user' 				=> '一般ユーザー',
 	'Admin' 					=> '管理者',
 	'Project manager'			=> '[PRJ]マネージャー',
-	'Read only' 				=> '読むだけ',
+	'Read only' 				=> '読み取り専用',
 	'IT' 						=> 'IT',
 
 	'total_rows'				=> '総行数',
 
-	'prj_name'					=> '名称',
+	'prj_name'					=> '名前',
 	'prj_notes'					=> '備考',
 
 	'error'						=> 'エラー',
@@ -98,7 +98,7 @@ $lang = array (
 	'menu_logout'				=> 'ログアウト',
 
 	// Free version
-	'free_line_1'				=> 'You are using the FREE VERSION of Team Password Manager, which only allows you to have 2 users and 5 [PRJS].',
+	'free_line_1'				=> '2人のユーザまたは5[PRJS]でのみ使用できる、Team Password Managerの無料版を使用しています。',
 	'free_line_2'				=> 'その他のユーザーと[PRJS]はこちら',
 
 	// Footer
@@ -107,13 +107,13 @@ $lang = array (
 	'footer_search_help'		=> '高度な検索ヘルプ',
 
 	// Demo
-	'demo_desc'					=> 'これは<strong>デモ</strong>の<strong>チームパスワード管理者</strong>.データは毎日午前2時（UTC / GMT）にリセットされます。',
-	'demo_feedback'				=> 'どんなフィードバックでも大いに歓迎する',
+	'demo_desc'					=> 'これは<strong>demo</strong>の<strong>Team Password Manager</strong>です。データは毎日午前2時（UTC / GMT）にリセットされます。',
+	'demo_feedback'				=> 'どんなフィードバックもお待ちしております',
 	'demo_download'				=> 'Team Password Managerをダウンロードし、自分のサーバーにインストールする。',
 
 	// File sizes
 	'bytes' 					=> 'バイト',
-	'kb'						=> 'キロバイト',
+	'kb'						=> 'Kb',
 	'mb'						=> 'Mb',
 	'gb'						=> 'Gb',
 	'tb'						=> 'TB',
@@ -140,9 +140,9 @@ $lang = array (
 
 	'page_not_exist'			=> 'このページは存在しないか、アクセスできません。',		
 
-	'main_large_msg_default_btn'=> 'オッケー',
+	'main_large_msg_default_btn'=> 'OK',
 	'main_edit_modal_cancel' 	=> 'キャンセル',
-	'main_edit_modal_save' 		=> 'セーブ',	
+	'main_edit_modal_save' 		=> '保存',	
 
 	// Form validation
 	// IMPORTANT NOTE: USE "" INSTEAD OF '' IN THE DESCRIPTION OF THESE STRINGS
@@ -172,7 +172,7 @@ $lang = array (
 
 	// Running conditions
 	'm_ac_mcrypt_not_installed'	=> 'Mcrypt PHP ライブラリがインストールされていません。',
-	'm_ac_mbstring_not_installed' => 'マルチバイト文字列（mbstring）ライブラリがインストールされていない。',
+	'm_ac_mbstring_not_installed' => 'マルチバイト文字列（mbstring）ライブラリがインストールされていません。',
 	'm_ac_mysqli_not_installed'	=> 'mysqli 拡張モジュールがインストールされていません。',
 	'm_ac_db_not_set'			=> 'データベース接続パラメータが設定されていません。',
 	'm_ac_tables_missing' 		=> 'データベース・テーブルの一部または全部がありません。おそらく、インストールまたはアップグレード手順を実行する必要があります。',
@@ -190,20 +190,20 @@ $lang = array (
 	'(system)'					=> '(システム)', // user used in processes where no user is logged in
 	
 	// v8
-	'c_maintenance_mode'		=> 'メンテナンス・モード',
+	'c_maintenance_mode'		=> 'メンテナンスモード',
 	'm_upgrade_maint_mode'		=> 'アップグレード手順を実行するには、このインストールをメンテナンスモードにする必要があります。その方法はこちらをご覧ください：',
 
 	// v12
-	'id'						=> 'アイド',
+	'id'						=> 'ID',
 	'cf_otp' 					=> 'ワンタイムパスワード',
 	'cf_date'					=> '日付',
 	'error_incorrect_date_string' => 'エラー：不正な日付文字列',
 
 	// v13
-	'form_validation_spaces'	=> 'sフィールドには、先頭または末尾にスペースを入れることはできません。', // Use "" instead of ''. %s is replaced by a string
+	'form_validation_spaces'	=> '%sフィールドには、先頭または末尾にスペースを入れることはできません。', // Use "" instead of ''. %s is replaced by a string
 
 	// v14
-	'clear_clipboard'			=> 'クリアクリップボード',
+	'clear_clipboard'			=> 'クリップボードをクリア',
 
 	// v15
 	'm_in_trash_log'			=> 'ゴミ箱に',
@@ -213,8 +213,8 @@ $lang = array (
 	'v_password_manager'		=> 'パスワードマネージャー',
 
 	// v20
-	'v_more'					=> 'もっと見る',
-	'v_less'					=> '少ない',
+	'v_more'					=> 'もっと',
+	'v_less'					=> '減らす',
 
 	'm_ac_execute_upgrade'		=> 'アップグレード手順を実行する必要があります。',
 
@@ -223,20 +223,20 @@ $lang = array (
 
 	'strength_score_1'			=> '非常に弱い',
 	'strength_score_2'			=> '弱い',
-	'strength_score_3'			=> 'グッド',
+	'strength_score_3'			=> '良い',
 	'strength_score_4'			=> '強い',
 
-	'v_etc'						=> '割れ目',
+	'v_etc'						=> '解読にかかる時間',
 	'etc_centuries'				=> '世紀',
 	'etc_less_second'			=> '秒未満', 
-	'etc_seconds' 				=> 'おかわり', 
-	'etc_minutes'				=> '議事録',
+	'etc_seconds' 				=> '秒', 
+	'etc_minutes'				=> '分',
 	'etc_hours'					=> '時間',
 	'etc_days'					=> '日', 
 	'etc_months'				=> '月',
 	'etc_years'					=> '年',
-	'etc_second'				=> 'セカンド',
-	'etc_minute'				=> '微細', 
+	'etc_second'				=> '秒',
+	'etc_minute'				=> '分', 
 	'etc_hour'					=> '時',
 	'etc_day'					=> '日',
 	'etc_month'					=> '月',
