@@ -3,7 +3,7 @@ $lang = array (
 	// controllers/users
 	'c_users_title'					=> 'ユーザー',	// plural
 	'c_users_user_title'			=> 'ユーザー',	// singular
-	'c_users_num_active'			=> '数<strong>アクティブ</strong>ユーザー',
+	'c_users_num_active'			=> '<strong>アクティブ</strong>ユーザー数',
 	'c_users_total_create'			=> 'ライセンスで許可されているアクティブユーザーの総数',
 	'c_users_left'					=> '残りユーザー数',
 	'c_users_cannot_more'			=> '現在のライセンスでユーザーを増やすことはできません。',
